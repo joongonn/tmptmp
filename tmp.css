@@ -1,0 +1,82 @@
+body {
+  padding: 10px;
+}
+ul {
+  padding-left: 20px;
+}
+a {
+  text-decoration:underline;
+}
+ul {
+  font-family: monospace;
+  list-style-position: inside;
+  padding-left: 0;
+}
+.container {
+  width: 900px;
+}
+.metric-heading {
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-bottom: 4px;
+  border-bottom: 1px dotted #aaa;
+}
+.table-container {
+  padding-left: 32px;
+  font-family: monospace;
+  background-color: #fff;
+}
+table > thead > tr > th {
+  color: #000;
+  background-color: #eee;
+}
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .1)
+}
+.bold {
+  font-weight: bold;
+}
+.clickable {
+  color: #337ab7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.clickable:hover,
+.clickable:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
+.room {
+  margin-top: 16px;
+  width: 100%;
+  display: block;
+}
+.room > #messages {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  padding: 8px;
+  overflow-y: scroll;
+  white-space: pre;
+  min-height: 200px;
+  max-height: 200px;
+  font-weight: bold;
+}
+.room > .input-container {
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-top: 0;
+  background-color: #eee;
+  margin-bottom: 16px;
+}
+.room > .input-container > input {
+  width: 100%;
+  padding: 4px;
+}
+.disconnected {
+  opacity: 0.25;
+}
